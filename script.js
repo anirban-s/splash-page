@@ -2,6 +2,7 @@ const { body } = document;
 
 function changeBackground(number) {
     let previosBackground;
+    // Storing the previos css calss
     if (body.className) {
         previosBackground = body.className;
     }
